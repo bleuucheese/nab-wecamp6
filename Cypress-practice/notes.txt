@@ -1,0 +1,24 @@
+describe: test suite
+IT: test case. before each/after each se chay truoc moi test case trong 1 describe
+uu tien should("eq") thay vi should("contain") (lam cho test case ko hien thi/detect dc bug)
+lay UI elements va co support API
+
+
+
+
+step 1: npm init
+step 2: npm install cypress --save-dev
+step 3: npx cypress open
+
+
+
+fixture folder: save login details and/or image uploads
+pages folder:
+support folder: cho nhung test case khong focus vao main functionality (eg: shopee->buy and paid not authentication)
+
+instead of hardcode, use test data file 
+
+# find required values by clicking on the submit button first and see what fields are red 
+
+
+## Homework 26 Nov 2024 (w5): check if the confirmation table data matches with the input data 
